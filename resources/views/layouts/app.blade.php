@@ -6,7 +6,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-git
+
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->

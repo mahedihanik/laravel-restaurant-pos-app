@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restuarnt App - Receipt - SaleID : {{$sale->id}}</title>
+  <title>AIUB Cafeteria - Receipt - SaleID : {{$sale->id}}</title>
   <link type="text/css" rel="stylesheet" href="{{asset('/css/receipt.css')}}" media="all" >
   <link type="text/css" rel="stylesheet" href="{{asset('/css/no-print.css')}}" media="print" >
 </head>
 <body>
   <div id="wrapper">
     <div id="receipt-header">
-      <h3 id="resturant-name">Resturant App Devtamin</h3>
-      <p>Address: 341 N Vakanda Ave</p>
-      <p>Analpolis, MD 1234</p>
-      <p>Tel: 473-XXXX-XXXX</p>
+      <h3 id="resturant-name">AIUB Cafeteria</h3>
+      <p>Address: Kuratoli,Kuril,Dhaka</p>
+      <p>Vatara , Dhaka - 1200 </p>
+      <p>Tel: 01706565009</p>
       <p>Reference Receipt: <strong>{{$sale->id}}</strong></p>
     </div>
     <div id="receipt-body">
